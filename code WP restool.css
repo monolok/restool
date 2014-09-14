@@ -11,12 +11,14 @@
 #floatR {
 	float: right;
 	width: 50%;
-	margin-right: -200px;
+	margin-right: -150px;
 }
 
 #clear {
 	clear: both;
 	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 150px;
 }
 
 ul li {
@@ -30,34 +32,40 @@ div ul {
 
 #center {
 	text-align: center;
-	margin-top: 80px;
+	margin-top: 225px;
 }
 
 #picR {
 	border-radius: 60%;
 	width: 50%;
 	height: 50%;
+	margin-top: 225px;
 }
 
 .floatPicR {
 	float: right;
 	height: 25%;
 	width: 25%;
+	padding-bottom: 100px;
 }
 
 .floatPicL {
 	float: left;
 	height: 25%;
 	width: 25%;
+	padding-bottom: 100px;
 }
 
 .clear1 {
  	clear: both;
+ 	margin-left: 150px;
+ 	margin-right: 150px;
  }
 
  #mid {
  	clear: both;
- 	padding-top: 40px;
+ 	padding-top: 100px;
+ 	padding-bottom: 250px;
  }
 
 .center {
@@ -66,24 +74,52 @@ div ul {
 
  div ol {
  	text-align: justify;
- 	margin-left: 220px;
+ 	margin-left: 400px;
  	padding-top: 0px;
+ }
+
+ ol li {
+ 	padding-top: 30px;
  }
 
  #displayG {
  	display: -moz-grid-group;
  	margin: inherit;
- 	margin-left: 50px;
+ 	margin-left: 200px;
  }
 
  .aligneF {
  	text-align: right;
+ 	padding-top: 250px;
  }
 
  .paddingB {
  	padding-right: 30px;
+ 	margin-right: 150px;
  }
 
  .space {
  	padding-top: 50px;
  }
+
+ #space{
+ 	padding-top: 50px;
+ 	margin-right: 200px;
+ 	margin-left: 200px;
+ }
+
+ #spaceA{
+ 	margin-left: 150px;
+ 	margin-right: 150px;
+ }
+
+#padtop{
+	padding-top: 50px;
+}
+
+body {
+	padding: 0px;
+	margin: -100px;
+	width: 100%;
+	height: 100%;
+}
