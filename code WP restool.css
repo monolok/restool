@@ -1,0 +1,89 @@
+.floatL {
+	float: left;
+	width: 50%;
+}
+
+.floatR {
+	float: right;
+	width: 50%;
+}
+
+#floatR {
+	float: right;
+	width: 50%;
+	margin-right: -200px;
+}
+
+#clear {
+	clear: both;
+	text-align: center;
+}
+
+ul li {
+	display: -moz-groupbox;
+	padding: 20px;
+}
+
+div ul {
+	text-align: center;
+}
+
+#center {
+	text-align: center;
+	margin-top: 80px;
+}
+
+#picR {
+	border-radius: 60%;
+	width: 50%;
+	height: 50%;
+}
+
+.floatPicR {
+	float: right;
+	height: 25%;
+	width: 25%;
+}
+
+.floatPicL {
+	float: left;
+	height: 25%;
+	width: 25%;
+}
+
+.clear1 {
+ 	clear: both;
+ }
+
+ #mid {
+ 	clear: both;
+ 	padding-top: 40px;
+ }
+
+.center {
+ 	text-align: -moz-center;
+ }
+
+ div ol {
+ 	text-align: justify;
+ 	margin-left: 220px;
+ 	padding-top: 0px;
+ }
+
+ #displayG {
+ 	display: -moz-grid-group;
+ 	margin: inherit;
+ 	margin-left: 50px;
+ }
+
+ .aligneF {
+ 	text-align: right;
+ }
+
+ .paddingB {
+ 	padding-right: 30px;
+ }
+
+ .space {
+ 	padding-top: 50px;
+ }
