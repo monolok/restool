@@ -18,7 +18,7 @@
 #clear {
 	clear: both;
 	text-align: center;
-	padding-top: 145px;
+	padding-top: 155px;
 	padding-bottom: 150px;
 }
 
@@ -32,8 +32,9 @@ div ul {
 }
 
 #center {
-	text-align: center;
-	margin-top: 125px;
+	text-align: left;
+	margin-top: 80px;
+	text-indent: 100px
 }
 
 #picR {
@@ -87,7 +88,7 @@ div ul {
  #displayG {
  	display: -moz-grid-group;
  	margin: inherit;
- 	margin-left: 200px;
+ 	margin-left: 110px;
  }
 
  .aligneF {
@@ -132,4 +133,29 @@ body {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	color: white;
+	padding-top: 1px;
+}
+
+h1 {
+	font-family: 'Black Ops One', cursive;
+	font-size: 80px;
+	margin-bottom: -20px;
+}
+
+nav li {
+	display: inline;
+	padding: 20px;
+}
+
+nav ul {
+	text-align: center;
+	margin-left: 900px;
+}
+
+nav a {
+	color: white;
+}
+
+footer ul li {
+	text-align: center;
 }
