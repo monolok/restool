@@ -52,6 +52,13 @@ div ul {
 	padding-bottom: 100px;
 }
 
+.floatPicRR {
+	float: right;
+	height: 25%;
+	width: 25%;
+	padding-bottom: 100px;
+}
+
 .floatPicL {
 	float: left;
 	height: 25%;
@@ -158,4 +165,42 @@ nav a {
 
 footer ul li {
 	text-align: center;
+}
+
+ul a:hover {
+	opacity: 0.8;
+}
+
+.son {
+	opacity: 0;
+	background-color: white;
+}
+
+.floatPicR:hover .son {
+	opacity: 0.8;
+	margin: -115px 0 0 -22px;
+	position: absolute;
+	padding: 58px;
+}
+
+.floatPicRR:hover .son {
+	opacity: 0.8;
+	margin: -171px 0 0 -22px;
+	position: absolute;
+	padding: 80px;
+}
+
+.floatPicL:hover .son {
+	opacity: 0.8;
+	margin: -171px 0 0 -22px;
+	position: absolute;
+	padding: 80px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
 }
