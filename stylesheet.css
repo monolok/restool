@@ -77,8 +77,11 @@ div ul {
 
  #mid {
  	clear: both;
- 	padding-top: 100px;
- 	padding-bottom: 250px;
+ 	padding-top: 130px;
+ 	padding-bottom: 130px;
+ 	background-image: url();
+ 	background-repeat: no-repeat;
+ 	background-size: 100%;
  }
 
 .center {
@@ -96,31 +99,33 @@ div ul {
  }
 
  #displayG {
- 	display: -moz-grid-group;
- 	margin: inherit;
- 	margin-left: 110px;
+ 	display: inline-flex;
+ 	padding: 115px;
+ 	background-size: 100%;
+ 	background-repeat: no-repeat;
+ 	background-image: url();
  }
 
  .aligneF {
  	text-align: right;
- 	padding-top: 200px;
+ 	padding-top: 105px;
+ 	background-size: 100%;
+ 	background-repeat: no-repeat;
+ 	background-image: url(images/why.jpg);
  }
 
  .paddingB {
- 	padding-right: 30px;
- 	margin-right: 150px;
- }
-
- .space {
- 	padding-top: 50px;
+ 	padding-right: 160px;
  }
 
  #space {
  	padding-top: 50px;
  	margin-right: 200px;
  	margin-left: 200px;
- 	background-color: whitesmoke;
+ 	background-image: url();
  	margin: inherit;
+ 	background-size: 100%;
+ 	background-repeat: no-repeat;
  }
 
  #spaceA {
@@ -150,6 +155,7 @@ body {
 	background-repeat: no-repeat;
 	color: white;
 	padding-top: 1px;
+	text-shadow: 1px 1px grey;
 }
 
 h1 {
