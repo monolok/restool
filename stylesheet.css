@@ -112,6 +112,9 @@ div ul {
  	background-size: 100%;
  	background-repeat: no-repeat;
  	background-image: url(images/why.jpg);
+ 	color: white;
+ 	text-shadow: 1px 1px black;
+ 	margin-bottom: -16px;
  }
 
  .paddingB {
@@ -192,24 +195,27 @@ ul a:hover {
 }
 
 .floatPicR:hover .son {
-	opacity: 0.8;
+	opacity: 0.95;
 	margin: -115px 0 0 -22px;
 	position: absolute;
 	padding: 58px;
+	color: brown;
 }
 
 .floatPicRR:hover .son {
-	opacity: 0.8;
-	margin: -171px 0 0 -22px;
+	opacity: 0.95;
+	margin: -171px 0 0 -45px;
 	position: absolute;
 	padding: 80px;
+	color: brown;
 }
 
 .floatPicL:hover .son {
-	opacity: 0.8;
-	margin: -171px 0 0 -22px;
+	opacity: 0.95;
+	margin: -171px 0 0 -55px;
 	position: absolute;
 	padding: 80px;
+	color: brown;
 }
 
 a {
@@ -218,4 +224,8 @@ a {
 
 .clear {
 	clear: both;
+}
+
+footer ul:hover {
+	opacity: 0.8;
 }
