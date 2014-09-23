@@ -79,9 +79,7 @@ div ul {
  	clear: both;
  	padding-top: 130px;
  	padding-bottom: 130px;
- 	background-image: url();
- 	background-repeat: no-repeat;
- 	background-size: 100%;
+ 	font-size: bold;
  }
 
 .center {
@@ -153,7 +151,7 @@ body {
 }
 
 #background1{
-	background-image: url(http://static.pexels.com/wp-content/uploads/2014/09/bell-bills-cash-register-2738.jpg);
+	background-image: url(images/back.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	color: white;
