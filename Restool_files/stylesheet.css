@@ -233,51 +233,43 @@ footer ul:hover {
 	#center {
 		padding-top: 0px;
 	}
-	.floatPicR {
-		padding-top: 35px;
-	}
-
-	.floatPicRR {
-		padding-top: 35px;
-	}
-
-	.floatPicL {
-		padding-top: 35px;
-	}
-
-	.floatL{
-		font-size: 10px;
-	}
-	.floatR{
-		font-size: 10px;
-	}
-	.floatLL{
-		font-size: 10px;
-	}
 }
 
 @media (min-width: 321px) and (max-width: 993px) {
+	.floatL {
+		background-image: url('images/people_pic.png');
+		background-size: 35% auto;
+		background-repeat: no-repeat;
+		background-position: right center;
+		margin-right: -90px;
+	}
+
+	.floatR {
+		background-image: url('images/operation_pic.png');
+		background-size: 35% auto;
+		background-repeat: no-repeat;
+		background-position: right center;
+		margin-right: -90px;
+	}
+
+	.floatLL {
+		background-image: url('images/community_pic.png');
+		background-size: 35% auto;
+		background-repeat: no-repeat;
+		background-position: right center;
+		margin-right: -90px;
+	}
 
 	.floatPicR {
-		padding-top: 35px;
+		opacity: 0;
 	}
 
 	.floatPicRR {
-		padding-top: 35px;
+		opacity: 0;
 	}
 
 	.floatPicL {
-		padding-top: 35px;
+		opacity: 0;
 	}
 
-	.floatL{
-		font-size: 10px;
-	}
-	.floatR{
-		font-size: 10px;
-	}
-	.floatLL{
-		font-size: 10px;
-	}
 }
-
