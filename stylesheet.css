@@ -235,10 +235,13 @@ footer ul:hover {
 	}
 	.floatPicR {
 		padding-top: 35px;
+		height: 10%;
+		width: 60%;
 	}
 
 	.floatPicRR {
 		padding-top: 35px;
+		width: 60%;
 	}
 
 	.floatPicL {
@@ -254,16 +257,40 @@ footer ul:hover {
 	.floatLL{
 		font-size: 10px;
 	}
+	#background1{
+		background-size: 190%;
+	}
+	.pad1{
+		margin-left: -100px;
+	}
+	.pad2{
+		margin-right: 40px;
+	}
+	.pad3{
+		padding-right: 0px;
+	}
+	#clear{
+		padding-top: 0px;
+		padding-bottom: 30px;
+		margin-top: 40px;
+	}
+	/*#center{
+		padding-top: 0px;
+		margin-bottom: 70px;
+	}*/
 }
 
 @media (min-width: 321px) and (max-width: 993px) {
 
 	.floatPicR {
 		padding-top: 35px;
+		height: 10%;
+		width: 60%;
 	}
 
 	.floatPicRR {
 		padding-top: 35px;
+		width: 60%;
 	}
 
 	.floatPicL {
@@ -278,6 +305,30 @@ footer ul:hover {
 	}
 	.floatLL{
 		font-size: 10px;
+	}
+	#background1{
+		background-size: 190%;
+	}
+	h1 {
+		font-size: 65px;
+	}
+	.pad1{
+		margin-left: -100px;
+	}
+	.pad2{
+		margin-right: 59px;
+	}
+	.pad3{
+		padding-right: 0px;
+	}
+	#clear{
+		padding-top: 0px;
+		padding-bottom: 30px;
+		margin-top: 40px;
+	}
+	#center{
+		padding-top: 0px;
+		margin-bottom: 70px;
 	}
 }
 
