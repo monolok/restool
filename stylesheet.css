@@ -178,27 +178,36 @@ ul a:hover {
 }
 
 .floatPicR:hover .son {
-	opacity: 0.95;
-	/*margin: -115px 0 0 -22px;*/
-	position: absolute;
-	padding: 58px;
 	color: brown;
+    height: 134%;
+    margin-top: -135px;
+    opacity: 0.95;
+    padding-left: 54px;
+    padding-top: 57px;
+    position: absolute;
+    width: 34%;
 }
 
 .floatPicRR:hover .son {
-	opacity: 0.95;
-	/*margin: -171px 0 0 -45px;*/
-	position: absolute;
-	padding: 80px;
 	color: brown;
+    height: 188%;
+    margin-top: -158px;
+    opacity: 0.95;
+    padding-left: 39px;
+    padding-top: 70px;
+    position: absolute;
+    width: 34%;
 }
 
 .floatPicL:hover .son {
-	opacity: 0.95;
-	/*margin: -171px 0 0 -55px;*/
-	position: absolute;
-	padding: 80px;
 	color: brown;
+    height: 137%;
+    margin-top: -139px;
+    opacity: 0.95;
+    padding-left: 39px;
+    padding-top: 57px;
+    position: absolute;
+    width: 54%;
 }
 
 a {
@@ -283,18 +292,19 @@ footer ul:hover {
 @media (min-width: 321px) and (max-width: 993px) {
 
 	.floatPicR {
-		padding-top: 35px;
+		padding-top: 18px;
 		height: 10%;
-		width: 60%;
+		width: 39%;
 	}
 
 	.floatPicRR {
-		padding-top: 35px;
-		width: 60%;
+		padding-top: 8px;
+		width: 43%;
 	}
 
 	.floatPicL {
-		padding-top: 35px;
+		padding-top: 11px;
+		width: 44%;
 	}
 
 	.floatL{
@@ -329,6 +339,16 @@ footer ul:hover {
 	#center{
 		padding-top: 0px;
 		margin-bottom: 70px;
+	}
+	#spaceC{
+		padding-top: none;
+	}
+	#spaceB{
+		padding-bottom: 0px;
+		padding-top: 78px;
+	}
+	#spaceA{
+		padding-top: 0px;
 	}
 }
 
