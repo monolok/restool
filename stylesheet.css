@@ -257,6 +257,15 @@ footer ul:hover {
     display: block;
     padding: 0px 0px;
 }
+
+.subfont {
+	font-family: 'Black Ops One', cursive;
+	font-size: 60px;
+}
+
+.panel-body {
+    padding: 200px;
+}
 /* responsive 320px */
 
 @media (max-width: 320px) {
