@@ -149,7 +149,7 @@ h1 {
 }
 
 nav li {
-	display: inline;
+	/*display: inline;*/
 	padding: 20px;
 }
 
@@ -270,6 +270,12 @@ footer ul:hover {
 .panel-body {
     padding: 200px;
 }
+
+.nav > li {
+    position: relative;
+    display: inline-block;
+}
+
 /* responsive 320px */
 
 @media (max-width: 320px) {
