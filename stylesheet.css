@@ -17,7 +17,7 @@
 }
 
 ul li {
-	display: -moz-box;
+	display: inline-block;
 }
 
 div ul {
@@ -70,7 +70,7 @@ div ul {
  }
 
 .center {
- 	text-align: -moz-center;
+ 	text-align: center;
  }
 
 div ol {
@@ -155,7 +155,7 @@ nav li {
 
 nav ul {
 	text-align: center;
-	display: -moz-box;
+	/*display: -moz-box;*/
 	/*padding-top: 25px;*/
 	/*margin-left: -55px;*/
 }
@@ -176,7 +176,7 @@ ul a:hover {
 	opacity: 0;
 	background-color: white;
 	-webkit-transition: all 500ms ease-out 1s;
-    -moz-transition: all 500ms ease-out 1s;
+    -moz-transition: all 500ms ease-out 4s;
     -o-transition: all 500ms ease-out 1s;
     transition: all 500ms ease-out 1s;
 }
