@@ -1,4 +1,4 @@
-.floatL {
+.floatL { 
 	/*float: left;*/
 	/*padding-left: 255px;*/
 }
@@ -17,7 +17,7 @@
 }
 
 ul li {
-	display: -moz-box;
+	display: inline-block;
 }
 
 div ul {
@@ -40,21 +40,27 @@ div ul {
 }
 
 .floatPicR {
-	height: 30%;
-	width: 35%;
-	/*margin-left: 70px;*/
+	background-image: url("images/people_pic.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 34%;
+	width: 28%;
 }
 
 .floatPicRR {
-	height: 25%;
-	width: 35%;
-	/*margin-left: 180px;*/
+	background-image: url("images/community_pic.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 20%;
+	width: 20%;
 }
 
 .floatPicL {
-	height: 30%;
-	width: 70%;
-	/*margin-left: 265px;*/
+	background-image: url("images/operation_pic.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 34%;
+	width: 45%;
 }
 
 .clear1 {
@@ -70,7 +76,7 @@ div ul {
  }
 
 .center {
- 	text-align: -moz-center;
+ 	text-align: center;
  }
 
 div ol {
@@ -149,19 +155,20 @@ h1 {
 }
 
 nav li {
-	display: inline;
+	/*display: inline;*/
 	padding: 20px;
 }
 
 nav ul {
 	text-align: center;
-	display: -moz-box;
+	/*display: -moz-box;*/
 	/*padding-top: 25px;*/
 	/*margin-left: -55px;*/
 }
 
 nav a {
-	color: #FFE4C4;
+	color: #brown;
+	cursor: pointer;
 }
 
 footer ul li {
@@ -173,45 +180,58 @@ ul a:hover {
 }
 
 .son {
-	opacity: 0;
+	opacity: 0.8;
 	background-color: white;
+	height: 100%;
+	width: 100%;
+	display: none;
+	padding-top: 24%;
+	text-align: center;
+	-webkit-transition: all 500ms ease-out 1s;
+    -moz-transition: all 500ms ease-out 4s;
+    -o-transition: all 500ms ease-out 1s;
+    transition: all 500ms ease-out 1s;
 }
 
 .floatPicR:hover .son {
-	color: brown;
+	/*color: brown;
     height: 134%;
     margin-top: -135px;
     opacity: 0.95;
     padding-left: 54px;
     padding-top: 57px;
     position: absolute;
-    width: 34%;
+    width: 34%;*/
+    display: block;
 }
 
 .floatPicRR:hover .son {
-	color: brown;
+	/*color: brown;
     height: 188%;
     margin-top: -158px;
     opacity: 0.95;
     padding-left: 39px;
     padding-top: 70px;
     position: absolute;
-    width: 34%;
+    width: 34%;*/
+    display: block;
 }
 
 .floatPicL:hover .son {
-	color: brown;
+	/*color: brown;
     height: 137%;
     margin-top: -139px;
     opacity: 0.95;
     padding-left: 39px;
     padding-top: 57px;
     position: absolute;
-    width: 54%;
+    width: 54%;*/
+    display: block;
 }
 
 a {
 	text-decoration: none;
+	color: brown;
 }
 
 .clear {
@@ -257,6 +277,35 @@ footer ul:hover {
     display: block;
     padding: 0px 0px;
 }
+
+.subfont {
+	font-family: 'Black Ops One', cursive;
+	font-size: 60px;
+}
+
+.panel-body {
+    padding: 200px;
+}
+
+.nav > li {
+    position: relative;
+    display: inline-block;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 400;
+    color: black;
+    text-shadow: none;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    color: brown;
+}
+
 /* responsive 320px */
 
 @media (max-width: 320px) {
@@ -272,7 +321,7 @@ footer ul:hover {
 	#center {
 		padding-top: 0px;
 	}
-	.floatPicR {
+	/*.floatPicR {
 		padding-top: 35px;
 		height: 10%;
 		width: 60%;
@@ -285,7 +334,7 @@ footer ul:hover {
 
 	.floatPicL {
 		padding-top: 35px;
-	}
+	}*/
 
 	.floatL{
 		font-size: 10px;
@@ -317,7 +366,7 @@ footer ul:hover {
 		padding-top: 0px;
 		margin-bottom: 70px;
 	}*/
-	.floatPicR:hover .son {
+	/*.floatPicR:hover .son {
 		color: brown;
     	height: 134%;
    		margin-top: -64px;
@@ -348,25 +397,33 @@ footer ul:hover {
     	padding-top: 35px;
     	position: absolute;
     	width: 59%;
-	}
+	}*/
 }
 
 @media (min-width: 321px) and (max-width: 993px) {
 
 	.floatPicR {
-		padding-top: 18px;
-		height: 10%;
-		width: 39%;
+		background-image: url("images/people_pic.png");
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		height: 15%;
+		width: 40%;
 	}
 
 	.floatPicRR {
-		padding-top: 8px;
-		width: 43%;
+		background-image: url("images/community_pic.png");
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		height: 20%;
+		width: 34%;
 	}
 
 	.floatPicL {
-		padding-top: 11px;
-		width: 44%;
+		background-image: url("images/operation_pic.png");
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		height: 32%;
+		width: 40%;
 	}
 
 	.floatL{
@@ -417,7 +474,7 @@ footer ul:hover {
 		display: inline-flex;
 		padding-bottom: 150px;
 	}
-	.floatPicR:hover .son {
+	/*.floatPicR:hover .son {
 		color: brown;
     	height: 102px;
     	margin-top: -94px;
@@ -426,9 +483,9 @@ footer ul:hover {
     	padding-top: 36px;
     	position: absolute;
     	width: 40%;
-	}
+	}*/
 
-	.floatPicRR:hover .son {
+	/*.floatPicRR:hover .son {
 		color: brown;
     	height: 188%;
     	margin-top: -137px;
@@ -448,5 +505,5 @@ footer ul:hover {
     	padding-top: 57px;
     	position: absolute;
     	width: 54%;
-	}
+	}*/
 }

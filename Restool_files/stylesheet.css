@@ -162,6 +162,7 @@ nav ul {
 
 nav a {
 	color: #FFE4C4;
+	cursor: pointer;
 }
 
 footer ul li {
@@ -170,6 +171,7 @@ footer ul li {
 
 ul a:hover {
 	opacity: 0.8;
+	cursor: pointer;
 }
 
 .son {
@@ -203,6 +205,7 @@ ul a:hover {
 
 a {
 	text-decoration: none;
+	cursor: pointer;
 }
 
 .clear {
