@@ -180,17 +180,16 @@ ul a:hover {
 }
 
 .son {
-	opacity: 0.8;
+	opacity: 0;
 	background-color: white;
 	height: 100%;
 	width: 100%;
-	display: none;
 	padding-top: 24%;
 	text-align: center;
-	-webkit-transition: all 500ms ease-out 1s;
-    -moz-transition: all 500ms ease-out 4s;
-    -o-transition: all 500ms ease-out 1s;
-    transition: all 500ms ease-out 1s;
+	-webkit-transition: all 400ms ease-out 100ms;
+    -moz-transition: all 400ms ease-out 100ms;
+    -o-transition: all 400ms ease-out 100ms;
+    transition: all 400ms ease-out 100ms;
 }
 
 .floatPicR:hover .son {
@@ -202,7 +201,7 @@ ul a:hover {
     padding-top: 57px;
     position: absolute;
     width: 34%;*/
-    display: block;
+    opacity: 0.9;
 }
 
 .floatPicRR:hover .son {
@@ -214,7 +213,7 @@ ul a:hover {
     padding-top: 70px;
     position: absolute;
     width: 34%;*/
-    display: block;
+    opacity: 0.9;
 }
 
 .floatPicL:hover .son {
@@ -226,7 +225,7 @@ ul a:hover {
     padding-top: 57px;
     position: absolute;
     width: 54%;*/
-    display: block;
+    opacity: 0.9;
 }
 
 a {
