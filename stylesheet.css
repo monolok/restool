@@ -167,7 +167,8 @@ nav ul {
 }
 
 nav a {
-	color: #FFE4C4;
+	color: #brown;
+	cursor: pointer;
 }
 
 footer ul li {
@@ -230,6 +231,7 @@ ul a:hover {
 
 a {
 	text-decoration: none;
+	color: brown;
 }
 
 .clear {
@@ -288,6 +290,20 @@ footer ul:hover {
 .nav > li {
     position: relative;
     display: inline-block;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 400;
+    color: black;
+    text-shadow: none;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    color: brown;
 }
 
 /* responsive 320px */
