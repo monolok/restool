@@ -18,6 +18,8 @@
   	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 </head>
 <body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 <div class="container-fluid">
 	<div class="row">
@@ -35,9 +37,33 @@
     				<h3 class="panel-title">Recruiting</h3>
   				</div>
   				<div class="panel-body">
-  					<button>
-  						Who is beeing reviewed ?: <input type="text" name="review">
-  					</button>			
+
+ 					<h2>Interviewee ?</h2>
+					<form name="checkListForm">
+						<input type="text" name="checkListItem"/>
+					</form>
+					<div id="button">Go!</div>
+					<br/>
+					<div class="list"></div>
+
+  					<script type="text/javascript">
+
+$(document).ready(function () {
+    $('#button').click(function() {
+           var name1 = $('input[name=checkListItem]').val();
+           $('.list').append('<div class="item">' + name1 + '</div>');
+        });
+    
+    $(document).on('click', '.item', function () {
+        $(this).remove();
+        }); 
+    
+
+
+    });
+
+  					</script>
+
   				</div>
 			</div>
 		</div>
@@ -54,7 +80,5 @@
 	</div>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 </html>
