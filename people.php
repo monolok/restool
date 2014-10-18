@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html>
 <?php 
 $title = "people";
+$description = "Une description super utile sur les gens.";
 include('header.php'); ?>
-<body>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
@@ -66,7 +65,19 @@ $(document).ready(function () {
     				<h3 class="panel-title">Keep or fire ?</h3>
   				</div>
   				<div class="panel-body">
-    				App
+
+           <?php 
+            
+              include('peopleapp.php');
+
+
+             ?>
+
+            <form method="post" action="">
+              <h2><?php echo "QUESTION..." ?></h2>
+              <input type="text" name="value" placeholder="Name?">
+              <input type="submit">
+            </form>
   				</div>
 			</div>			
 		</div>
@@ -75,5 +86,3 @@ $(document).ready(function () {
 
 <?php include('footer.php'); ?>
 
-</body>
-</html>

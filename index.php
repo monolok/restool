@@ -4,8 +4,6 @@ include('header.php');
 ?>
 
 <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
-<body>
-
 <section id="background1">
 <div class="container-fluid">
 	<!-- NavBar Right-->
@@ -205,4 +203,3 @@ include('header.php');
 <!-- End of 3rd page Why sign up?-->
 
 <?php include('footer.php'); ?>
-</body>

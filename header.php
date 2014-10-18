@@ -1,5 +1,8 @@
+<!DOCTYPE html>
+<html>
 <head>
   <title><?php echo $title ?></title>
+  <meta name="description" content="<?php echo $description ?>">
   <meta charset="utf-8">
   <link href='http://fonts.googleapis.com/css?family=Fira+Sans:400,500,300' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
@@ -15,3 +18,4 @@
 <![endif]-->
   <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 </head>
+<body>
