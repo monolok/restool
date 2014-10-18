@@ -137,7 +137,7 @@
 		<div class="col-xs-6 col-sm-6 col-md-6">
 			<div class="floatPicR">
 				<div class="son">
-				<a href="people.html" target="_blank">Building site</a>
+				<a href="people.php" target="_blank">Building site</a>
 				</div>
 			</div>
 		</div>	
@@ -147,7 +147,7 @@
 		<div class="col-xs-6 col-sm-6 col-md-offset-3 col-md-3">
 			<div class="floatPicL">
 				<div class="son">
-				<a href="operation.html" target="_blank">Building site</a>
+				<a href="operation.php" target="_blank">Building site</a>
 				</div>
 			</div>
 		</div>
@@ -171,7 +171,7 @@
 		<div class="col-xs-6 col-sm-6 col-md-6">
 			<div class="floatPicRR">
 				<div class="son">
-				<a href="community.html" target="_blank">Building site</a>
+				<a href="community.php" target="_blank">Building site</a>
 				</div>
 			</div>
 		</div>
