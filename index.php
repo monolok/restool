@@ -1,4 +1,7 @@
-<?php include('header.php'); ?>
+<?php 
+$title = "restool";
+include('header.php'); 
+?>
 
 <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
 <body>

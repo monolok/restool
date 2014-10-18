@@ -1,5 +1,5 @@
 <head>
-  <title>Restool</title>
+  <title><?php echo $title ?></title>
   <meta charset="utf-8">
   <link href='http://fonts.googleapis.com/css?family=Fira+Sans:400,500,300' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
