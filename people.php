@@ -52,12 +52,19 @@ $(document).ready(function () {
     $('#button').click(function() {
            var name1 = $('input[name=checkListItem]').val();
            $('.list').append('<div class="item">' + name1 + '</div>');
+
         });
     
     $(document).on('click', '.item', function () {
         $(this).remove();
         }); 
-    
+
+    $(document).bind('keypress', function(e){
+   		if(e.which === 13) {
+   			e.preventDefault();
+   			$('#button').trigger('click');
+   			}
+		});
 
 
     });
@@ -79,6 +86,8 @@ $(document).ready(function () {
 		</div>
 	</div>
 </div>
+
+<?php include('footer.php'); ?>
 
 </body>
 </html>
