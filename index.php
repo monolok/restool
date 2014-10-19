@@ -1,5 +1,6 @@
 <?php 
 $title = "restool";
+$description ="Simplify restaurateur's life";
 include('header.php'); 
 ?>
 
@@ -88,7 +89,8 @@ include('header.php');
     </div>
   </div>
 </div></li>
-			        			<li><a href="#displayG"><i class="fa fa-life-ring fa-1x"></i>  Support Us !</a></li>
+			        			<li><a href="#displayG" id="aclick"><i class="fa fa-life-ring fa-1x"></i>  Support Us !</a></li>
+
 			      			</ul>
 			    </div><!-- /.navbar-collapse -->
 		    		</div>
