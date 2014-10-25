@@ -1,6 +1,9 @@
 <?php 
-            
-echo "string";
+$question = "Welcome to the Keep or Fire app, please provide with the name of the person beeing reivewed";
+
+
+    
+
 
 
 ?>

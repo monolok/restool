@@ -7,7 +7,8 @@ $(document).ready(function(){
    			scrollTop: $('#displayG').offset().top
    		}, 1500);
    		event.preventDefault();
+
    });
 
-
-});
+  
+  	});

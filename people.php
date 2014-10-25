@@ -74,7 +74,7 @@ $(document).ready(function () {
              ?>
 
             <form method="post" action="">
-              <h2><?php echo "QUESTION..." ?></h2>
+              <h2><?php echo $question ?></h2>
               <input type="text" name="value" placeholder="Name?">
               <input type="submit">
             </form>

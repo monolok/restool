@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title><?php echo $title ?></title>
-  <meta name="description" content="<?php echo $description ?>">
-  <meta charset="utf-8">
+  <title><?php wp_title( '|', true, 'right' ); ?></title>
+  <!-- <meta name="description" content="<? //php echo $description ?>"> -->
+  <meta charset="<?php bloginfo( 'charset' ); ?>">
   <link href='http://fonts.googleapis.com/css?family=Fira+Sans:400,500,300' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -16,6 +16,7 @@
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
-  <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+  <link type="text/css" rel="stylesheet" href="<?php echo esc_url( get_stylesheet_uri() ); ?>"/>
+  <?php wp_head(); ?>
 </head>
 <body>
