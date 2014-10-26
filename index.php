@@ -63,21 +63,21 @@ get_header();
 			</div>
 		</div>
 		<div class="col-xs-6 col-sm-6 col-md-6">
-			<div class="floatPicR">
-				<div class="son">
-				<a href="people.php" target="_blank">Building site</a>
+			<a href="people.php" target="_blank">
+				<div class="floatPicR" data-toggle="tooltip" data-placement="bottom" title="Building Site">
+					<div class="son"></div>
 				</div>
-			</div>
+			</a>
 		</div>	
 	</article>
 	<!-- 2nd Row Operation-->
 	<article class="row clear1" id="spaceB">
 		<div class="col-xs-6 col-sm-6 col-md-offset-3 col-md-3">
-			<div class="floatPicL">
-				<div class="son">
-				<a href="operation.php" target="_blank">Building site</a>
+			<a href="operation.php" target="_blank">
+				<div class="floatPicL" data-toggle="tooltip" data-placement="bottom" title="Building site">
+					<div class="son"></div>
 				</div>
-			</div>
+			</a>
 		</div>
 		<div class="col-xs-6 col-sm-6 col-md-6">
 			<div class="floatR">
@@ -97,11 +97,11 @@ get_header();
 			</div>
 		</div>
 		<div class="col-xs-6 col-sm-6 col-md-6">
-			<div class="floatPicRR">
-				<div class="son">
-				<a href="community.php" target="_blank">Building site</a>
+			<a href="community.php" target="_blank">
+				<div class="floatPicRR" data-toggle="tooltip" data-placement="bottom" title="Building site">
+					<div class="son"></div>
 				</div>
-			</div>
+			</a>
 		</div>
 	</article>
 	<div class="clear"></div>
@@ -114,7 +114,6 @@ get_header();
 	<div class="row">
 		<!-- Center Why sign up ?-->
 		<div class="col-md-offset-4 col-md-4">
-		<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Tooltip on bottom</button>
 			<div id="mid">
 				<h2 class="center">Why sign up ?</h2>
 					<ol>
