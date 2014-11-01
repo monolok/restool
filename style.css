@@ -127,12 +127,12 @@ ol li {
  }
 
 #spaceA {
- 	padding-bottom: 65px;
+ 	/*padding-bottom: 65px;*/
  	padding-top: 65px;
  }
 
 #spaceB {
-	padding-bottom: 65px;
+	padding-top: 65px;
 }
 
 #spaceC {
@@ -198,10 +198,10 @@ ul a:hover {
 	width: 100%;
 	padding-top: 100%;
 	text-align: center;
-	-webkit-transition: all 400ms ease-out 100ms;
-    -moz-transition: all 400ms ease-out 100ms;
-    -o-transition: all 400ms ease-out 100ms;
-    transition: all 400ms ease-out 100ms;
+	-webkit-transition: all 500ms ease-out 100ms;
+    -moz-transition: all 500ms ease-out 100ms;
+    -o-transition: all 500ms ease-out 100ms;
+    transition: all 500ms ease-out 100ms;
 }
 
 .floatPicR:hover .son {
@@ -501,13 +501,13 @@ a:hover, a:focus {
 	#spaceC{
 		padding-top: 78px;
 	}
-	#spaceB{
+	/*#spaceB{
 		padding-bottom: 0px;
-		padding-top: 78px;
-	}
-	#spaceA{
+		padding-top: 65px;
+	}*/
+	/*#spaceA{
 		padding-top: 0px;
-	}
+	}*/
 	#displayG{
 		/*padding-left: 200px;*/
 		display: inline-flex;

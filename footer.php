@@ -4,14 +4,21 @@
 		<div class="row">
 			<!-- Extra -->
 			<div class="col-xs-4 col-sm-4 col-md-3 col-md-offset-1 pad1">
+			<?php query_posts('cat=6'); ?>
+			<?php while (have_posts()) : the_post(); ?>
 				<i class="fa fa-search-plus fa-5x"></i>
-				<h3>More stuff</h3>
-				<p>Cool ressources</p>
-				<p>Your cool restaurant web-site</p>
+				<h3><?php the_title(); ?></h3>
+				<p><?php the_content(); ?></p>
+				<!-- <p>Cool ressources</p>
+				<p>Your cool restaurant web-site</p> -->
+			<?php endwhile; ?>
+			<?php wp_reset_query(); ?>	
 			</div>
 			<div class="col-xs-4 col-sm-4 col-md-3 col-md-offset-1 pad2">
+			<?php query_posts('cat=7'); ?>
+			<?php while (have_posts()) : the_post(); ?>	
 				<i class="fa fa-life-ring fa-5x"></i>
-				<h3>Support us for more free tools</h3>
+				<h3><?php the_title(); ?></h3>
 
 		<!-- Button trigger modal -->
 <button class="fa fa-btc fa-2x" data-toggle="modal" data-target="#myModal">
@@ -27,7 +34,7 @@
       </div>
       <div class="modal-body">
 <h4 style="text-align: center;">Please donate Bitcoin to the following address: <br></br> 1CbrtETKCmwaAwEgbwbGDtRr4xYTwGeCCv</h4> <br></br>
-<img src="images/bit.png" style="width: 75%; padding-left: 150px;">
+<img src="wp-content/themes/restool/images/bit.png" style="width: 75%; padding-left: 150px;">
 
 
 
@@ -47,14 +54,19 @@
   					<span class="input-group-addon"><i class="fa fa-lightbulb-o" style="font-size: 20px;"></i></span>
   					<input type="text" class="form-control" placeholder="Submit an idea !">
 				</div>
-				<!--  -->
+			<?php endwhile; ?>
+			<?php wp_reset_query(); ?>
 			</div>
 			<div class="col-xs-4 col-sm-4 col-md-3 col-md-offset-1 pad3">
+			<?php query_posts('cat=8'); ?>
+			<?php while (have_posts()) : the_post(); ?>
 				<i class="fa fa-exchange fa-5x"></i>
-				<h3>Stay tuned for new features</h3>
+				<h3><?php the_title(); ?></h3>
 				<i class="fa fa-envelope fa-3x"></i>
 				<i class="fa fa-facebook-square fa-3x"></i>
 				<i class="fa fa-twitter-square fa-3x"></i>
+			<?php endwhile; ?>
+			<?php wp_reset_query(); ?>	
 			</div>
 		</div>
 	</article>

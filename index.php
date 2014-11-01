@@ -54,41 +54,55 @@ get_header();
 <section id="space">
 <div class="container">
 	<!-- 1st Row People-->
+	<?php query_posts('cat=12'); ?>
+	<?php while (have_posts()) : the_post(); ?>
 	<article class="row" id="spaceA">
 		<div class="col-xs-6 col-sm-6 col-md-offset-3 col-md-3">
 			<div class="floatL">
-				<h3>Your people</h3>
-				<p>Simple recruiting</p>
-				<p>Keep or fire?</p>
+				<h3><?php the_title(); ?></h3>
+				<p><?php the_content(); ?></p>
+				<!--<p>Simple recruiting</p>
+				<p>Keep or fire?</p> -->
 			</div>
 		</div>
 		<div class="col-xs-6 col-sm-6 col-md-6">
-			<a href="people.php" target="_blank">
+		<?php the_field('html'); ?>
+		<?php the_field('css') ?>
+			<!-- <a href="people.php" target="_blank">
 				<div class="floatPicR" data-toggle="tooltip" data-placement="bottom" title="Building Site">
 					<div class="son"></div>
 				</div>
-			</a>
-		</div>	
+			</a> -->
+		</div>		
 	</article>
+	<?php endwhile;?>
+	<?php wp_reset_query(); ?>
 	<!-- 2nd Row Operation-->
+	<?php query_posts('cat=13'); ?>
+	<?php while (have_posts()) : the_post(); ?>
 	<article class="row clear1" id="spaceB">
 		<div class="col-xs-6 col-sm-6 col-md-offset-3 col-md-3">
-			<a href="operation.php" target="_blank">
+		<?php the_field('html') ?>
+		<?php the_field('css') ?>
+			<!-- <a href="operation.php" target="_blank">
 				<div class="floatPicL" data-toggle="tooltip" data-placement="bottom" title="Building site">
 					<div class="son"></div>
 				</div>
-			</a>
+			</a> -->
 		</div>
 		<div class="col-xs-6 col-sm-6 col-md-6">
 			<div class="floatR">
-				<h3>Your operation</h3>
-				<p>Easy supplier-order</p>
-				<p>Easy food cost-> pricing</p>
+				<h3><?php the_title(); ?></h3>
+				<p><?php the_content(); ?></p>
+				<!-- <p>Easy supplier-order</p>
+				<p>Easy food cost-> pricing</p> -->
 			</div>
 		</div>	
 	</article>
+	<?php endwhile;?>
+	<?php wp_reset_query(); ?>
 	<!-- 3rd Row Community -->
-	<article class="row clear1" id="spaceC" >
+<!-- 	<article class="row clear1" id="spaceC" >
 		<div class="col-xs-6 col-sm-6 col-md-offset-3 col-md-3">
 			<div class="floatLL">
 				<h3>Your community</h3>
@@ -103,7 +117,7 @@ get_header();
 				</div>
 			</a>
 		</div>
-	</article>
+	</article> -->
 	<div class="clear"></div>
 </div>
 </section>
@@ -114,15 +128,20 @@ get_header();
 	<div class="row">
 		<!-- Center Why sign up ?-->
 		<div class="col-md-offset-4 col-md-4">
+		<?php query_posts('cat=-6,-7,-8,-12,-13'); ?>
+			<?php while (have_posts()) : the_post(); ?>
 			<div id="mid">
-				<h2 class="center">Why sign up ?</h2>
-					<ol>
+				<h2 class="center"><?php the_title(); ?></h2>
+					<?php the_content(); ?>
+					<!-- <ol>
 						<li>Access your data from anywhere</li>
 						<li>Save your data on our cloud based server</li>
 						<li>Browse your tool generated data for decisions</li>
 						<li>Re-use tools with your parameter, its simpler and faster</li>
-					</ol>
+					</ol> -->
 			</div>
+		<?php endwhile; ?>
+			<?php wp_reset_query(); ?>
 		</div>
 	</div>
 </div>
